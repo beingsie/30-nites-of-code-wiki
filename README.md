@@ -39,6 +39,7 @@ Free to be creative & don't worry if it breaks ..
 7. **→ Create a Pull Request:** Go to the original repository on GitHub, and you'll see a prompt to create a pull request from your new branch.
 
 ## Setup and Installation
+- After forking & setting up your new branch just start coding!
 💡 Have fun, if it breaks we can all try to fix it.
 
 
