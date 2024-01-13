@@ -1,0 +1,72 @@
+.bounceUp {
+    animation: bounceUp 2s ease;
+}
+
+@keyframes bounceUp {
+    0% {
+        transform: translateY(96px);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    40% {
+        transform: translateY(-15px);
+    }
+}
+
+.bounceUpDown {
+    animation: bounceUpDown 2s ease;
+}
+
+@keyframes bounceUpDown {
+    0% {
+        transform: translateY(200px);
+    }
+
+    58% {
+        transform: translateY(-15px);
+    }
+}
+
+.rotate-in-down-left {
+    animation: rotate-in-down-left 2s ease forwards;
+}
+
+@keyframes rotate-in-down-left {
+    0% {
+        transform-origin: left middle;
+        opacity: 0;
+        transform: translateY(96px), rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-24px);
+    }
+
+    100% {
+        transform-origin: left middle;
+        opacity: 1;
+        transform: translateY(0px), rotate(-3deg);
+    }
+}
+
+.slide-out-up {
+    position: relative;
+    animation-name: slideOutUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes slideOutUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
