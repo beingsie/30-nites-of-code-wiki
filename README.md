@@ -39,7 +39,7 @@ Free to be creative & don't worry if it breaks ..
 7. **→ Create a Pull Request:** Go to the original repository on GitHub, and you'll see a prompt to create a pull request from your new branch.
 
 ## Issues/Bugs
-Create a new [issue](https://github.com/beingsie/anything/issues) or take part in exisiting ones by commenting on their. If you'd like to fix a specific error/bug or add any new changes - all up to you!
+Create a new [issue](https://github.com/beingsie/anything/issues) or take part in exisiting ones by commenting. If you'd like to fix a specific error/bug or add any new changes - all up to you!
 
 ### [[Create A New Issue]](https://github.com/beingsie/anything/issues)
 
