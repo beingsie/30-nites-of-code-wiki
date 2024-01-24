@@ -16,11 +16,59 @@
     }
 }
 
-.bounceUpDown {
-    animation: bounceUpDown 2s ease;
+.bounceUpDownDragon {
+    animation: bounceUpDownDragon 2.5s ease;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
 }
 
-@keyframes bounceUpDown {
+@keyframes bounceUpDownDragon {
+    0% {
+        transform: translate(-77px, 200px);
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-77px, 6px);
+        opacity: 1;
+    }
+}
+
+.bounceUpDownDuck {
+    animation: bounceUpDownDuck 2.5s ease;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bounceUpDownDuck {
+    0% {
+        transform: translate(70px, 200px);
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    50% {
+        transform: translate(70px, -55px);
+    }
+
+    100% {
+        transform: translate(70px, -10px);
+        opacity: 1;
+    }
+}
+
+.bounceUpDownDino {
+    animation: bounceUpDownDino 2s ease;
+}
+
+@keyframes bounceUpDownDino {
     0% {
         transform: translateY(200px);
     }

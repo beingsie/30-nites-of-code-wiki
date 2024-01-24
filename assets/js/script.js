@@ -3,6 +3,8 @@ window.onload = function() {
     // Get elements
     const challengeTag = document.getElementById("challengeTag");
     const miniDino = document.getElementById("miniDino");
+    const miniDuck = document.getElementById("miniDuck");
+    const miniDragon = document.getElementById("miniDragon");
     const anythingHeading = document.getElementById("mainHeading");
 
     // Add fadeInBounce animation through class to tag
@@ -10,8 +12,12 @@ window.onload = function() {
     challengeTag.style.opacity = "1"
 
     setTimeout(() => {
-        miniDino.classList.add("bounceUpDown");
+        miniDino.classList.add("bounceUpDownDino");
         miniDino.style.opacity = "1";
+
+        miniDuck.classList.add("bounceUpDownDuck");
+
+        miniDragon.classList.add("bounceUpDownDragon");
     }, 140);
 
     setTimeout(() => {
