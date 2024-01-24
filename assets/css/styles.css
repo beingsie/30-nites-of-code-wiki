@@ -275,7 +275,26 @@ section.hero {
     width: 100%;
     max-width: 69px;
     transition: all 0s ease;
-    /* For JavaScript */
+    opacity: 0;
+}
+
+.mini-dragon {
+    position: absolute;
+    z-index: 0;
+    top: -16px;
+    width: 100%;
+    max-width: 69px;
+    transition: all 0s ease;
+    opacity: 0;
+}
+
+.mini-duck {
+    position: absolute;
+    z-index: 0;
+    top: -16px;
+    width: 100%;
+    max-width: 69px;
+    transition: all 0s ease;
     opacity: 0;
 }
 
