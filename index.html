@@ -1,93 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anything</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/media_queries.css">
-    <link rel="stylesheet" href="/assets/css/animations.css">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/media_queries.css" />
+    <link rel="stylesheet" href="/assets/css/animations.css" />
     <!-- Font Awesome CDN | Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <main>
-        <header>
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li><a class="nav-logo" href="/">→</a></li>
-                    </ul>
-                    <div class="sub-menu">
-                        <ul>
-                            <li>
-                                <a id="whatLink" href=""><span class="arrow-icon">→</span> What</a>
-                            </li>
-                        </ul>
-                        <ul class="links-socials">
-                            <li>
-                                <a href="https://github.com/beingsie/codedexio/tree/main/monthly_challenges/2024/anything" target="_blank" rel="noopener">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://x.com/beingsie/status/1745335413903184043?s=20" target="_blank" rel="noopener">
-                                    <i class="fa-brands fa-x-twitter"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+      <header>
+        <div class="container">
+          <nav>
+            <ul>
+              <li><a class="nav-logo" href="/">→</a></li>
+            </ul>
+            <div class="sub-menu">
+              <ul>
+                <li>
+                  <a id="whatLink" href=""
+                    ><span class="arrow-icon">→</span> What</a
+                  >
+                </li>
+              </ul>
+              <ul class="links-socials">
+                <li>
+                  <a
+                    href="https://github.com/beingsie/codedexio/tree/main/monthly_challenges/2024/anything"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://x.com/beingsie/status/1745335413903184043?s=20"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-brands fa-x-twitter" id="like-button"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
-        </header>
-        <!-- #30NitesOfCode Anything -->
-        <section class="hero">
-            <div class="container">
-                <div class="content-wrapper">
-                    <h1 id="mainHeading"><span id="mainHeadingArrow">→</span>Anything</h1>
-                    <div id="challengeTag" class="tag">
-                        <a href="https://www.codedex.io/community/monthly-challenge/january-2024" target="_blank" rel="noopener">
-                            <p>#30NitesOfCode</p>
-                        </a>
-                    </div>
-                    <img id="miniDino" class="mini-dino"
-                        src="/assets/img/evolved-happy-dinosaur.gif"
-                        alt="A mini Codédex dino.">
-                </div>
+          </nav>
+        </div>
+      </header>
+      <!-- #30NitesOfCode Anything -->
+      <section class="hero">
+        <div class="container">
+          <div class="content-wrapper">
+            <h1 id="mainHeading">
+              <span id="mainHeadingArrow">→</span>Anything
+            </h1>
+            <div id="challengeTag" class="tag">
+              <a
+                href="https://www.codedex.io/community/monthly-challenge/january-2024"
+                target="_blank"
+                rel="noopener"
+              >
+                <p>#30NitesOfCode</p>
+              </a>
             </div>
-        </section>
+            <img
+              id="miniDino"
+              class="mini-dino"
+              src="/assets/img/evolved-happy-dinosaur.gif"
+              alt="A mini Codédex dino."
+            />
+          </div>
+        </div>
+      </section>
+      <!-- START Like Button -->
+      <section class="heart-container">
+        <i class="fa-regular fa-heart" id="likeButton"></i>
+      </section>
+      <!-- END Like Button -->
     </main>
 
     <!-- Modal window -->
     <div id="modalWindow" class="modal">
-        <div id="modalContent" class="modal-content">
-            <i class="fa-solid fa-x close close-icon"></i>
-            <div class="content-text">
-                <article>
-                    <div class="content-wrapper">
-                        <a class="close" id="closeBtn" href="https://github.com/beingsie/anything" target="_blank" rel="noopener">
-                            <p>→</p>
-                            <p>Lets do this</p>
-                        </a>
-                        <div class="text">
-                            <p class="at-tag"><span>@</span>Beingsie</p>
-                            <p>As a participant, you're encouraged to jump right in, share your creativity by adding anything & collaborate
-                                with other talented learning devs to create something new for <a href="https://www.codedex.io/community/monthly-challenge/january-2024" target="_blank" rel="noopener">#30NitesOfCode</a>.
-                            </p>
-                        </div>
-                    </div>
-                </article>
+      <div id="modalContent" class="modal-content">
+        <i class="fa-solid fa-x close close-icon"></i>
+        <div class="content-text">
+          <article>
+            <div class="content-wrapper">
+              <a
+                class="close"
+                id="closeBtn"
+                href="https://github.com/beingsie/anything"
+                target="_blank"
+                rel="noopener"
+              >
+                <p>→</p>
+                <p>Lets do this</p>
+              </a>
+              <div class="text">
+                <p class="at-tag"><span>@</span>Beingsie</p>
+                <p>
+                  As a participant, you're encouraged to jump right in, share
+                  your creativity by adding anything & collaborate with other
+                  talented learning devs to create something new for
+                  <a
+                    href="https://www.codedex.io/community/monthly-challenge/january-2024"
+                    target="_blank"
+                    rel="noopener"
+                    >#30NitesOfCode</a
+                  >.
+                </p>
+              </div>
             </div>
+          </article>
         </div>
+      </div>
     </div>
 
     <!-- Scripts -->
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
