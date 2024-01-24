@@ -346,3 +346,16 @@ section.hero .content-wrapper {
     align-items: center;
     justify-content: center;
 }
+
+/* START like button */
+.heart-container{
+    font-size: 25vw;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.liked {
+    color: red;
+}
+/* END like button */
