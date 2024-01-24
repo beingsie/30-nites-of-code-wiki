@@ -110,3 +110,23 @@ function showRemaining() {
 
 //countdown timer
 timer = setInterval(showRemaining, 1000);
+
+// START Like button code
+
+const likeButton = document.querySelector("#likeButton");
+
+
+if (localStorage.getItem('liked') === 'true') {
+    likeButton.classList.add("fa-solid");
+    likeButton.classList.remove("fa-regular");
+    likeButton.classList.add("liked")
+}
+
+likeButton.addEventListener("click", () => {
+    let isLiked = likeButton.classList.toggle("fa-regular");
+    likeButton.classList.toggle("fa-solid");
+    likeButton.classList.toggle("liked")
+    localStorage.setItem('liked', !isLiked);
+});
+
+// END Like button code

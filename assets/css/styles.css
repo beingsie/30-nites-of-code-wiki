@@ -279,6 +279,26 @@ section.hero {
   opacity: 0;
 }
 
+.mini-dragon {
+    position: absolute;
+    z-index: 0;
+    top: -16px;
+    width: 100%;
+    max-width: 69px;
+    transition: all 0s ease;
+    opacity: 0;
+}
+
+.mini-duck {
+    position: absolute;
+    z-index: 0;
+    top: -16px;
+    width: 100%;
+    max-width: 69px;
+    transition: all 0s ease;
+    opacity: 0;
+}
+
 section.hero h1 {
   font-family: "Geist-SemiBold", sans-serif;
   transform: rotate(-3deg);
@@ -365,3 +385,16 @@ section.hero .content-wrapper {
   line-height: 40px;
   color: white;
 }
+
+/* START like button */
+.heart-container{
+    font-size: 25vw;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.liked {
+    color: red;
+}
+/* END like button */
