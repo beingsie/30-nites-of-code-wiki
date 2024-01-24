@@ -1,5 +1,5 @@
 // On window load
-window.onload = function() {
+window.onload = function () {
     // Get elements
     const challengeTag = document.getElementById("challengeTag");
     const miniDino = document.getElementById("miniDino");
@@ -52,7 +52,7 @@ for (let i = 0; i < closeButtons.length; i++) {
 }
 
 // Attach an event listener to the document to handle clicks outside modalContent
-modalWindow.addEventListener('click', function(event) {
+modalWindow.addEventListener('click', function (event) {
     if (event.target !== modalContent && !modalContent.contains(event.target)) {
         closeModal();
     }
@@ -74,3 +74,23 @@ function closeModal() {
     // Open URL through JS method - Archived
     // window.open('https://github.com/beingsie/anything', '_blank', 'noopener');
 }
+
+// START Like button code
+
+const likeButton = document.querySelector("#likeButton");
+
+
+if (localStorage.getItem('liked') === 'true') {
+    likeButton.classList.add("fa-solid");
+    likeButton.classList.remove("fa-regular");
+    likeButton.classList.add("liked")
+}
+
+likeButton.addEventListener("click", () => {
+    let isLiked = likeButton.classList.toggle("fa-regular");
+    likeButton.classList.toggle("fa-solid");
+    likeButton.classList.toggle("liked")
+    localStorage.setItem('liked', !isLiked);
+});
+
+// END Like button code
