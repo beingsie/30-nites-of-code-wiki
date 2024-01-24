@@ -48,6 +48,9 @@ Create a new [issue](https://github.com/beingsie/anything/issues) or take part i
 
 
 ## Contributors
+[✅ @Intelagense](https://github.com/intelagense)
+[✅ @Sametj](https://github.com/sametj)
+[✅ @Debasishrowlo](https://github.com/debasishrowlo)
 [✅ @Beingsie](https://github.com/beingsie)
 
 ## License
