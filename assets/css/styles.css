@@ -403,3 +403,6 @@ section.hero .content-wrapper {
   color: white;
   font-family: "Geist-Medium", sans-serif;
 }
+footer {
+  margin-left:5px;
+}
