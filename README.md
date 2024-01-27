@@ -52,6 +52,7 @@ Create a new [issue](https://github.com/beingsie/anything/issues) or take part i
 [✅ @Sametj](https://github.com/sametj)
 [✅ @Debasishrowlo](https://github.com/debasishrowlo)
 [✅ @Beingsie](https://github.com/beingsie)
+[✅ @Milan](https://github.com/MilanGrujicic)
 
 ## License
 [MIT](https://github.com/beingsie/anything/blob/main/LICENSE)
