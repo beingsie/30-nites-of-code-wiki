@@ -367,6 +367,11 @@ section.hero .content-wrapper {
 }
 
 /* START like button */
+#likeButton {
+  background-color: transparent;
+  border: transparent;
+}
+
 .heart-container {
   font-size: 25vw;
   display: flex;
@@ -374,9 +379,6 @@ section.hero .content-wrapper {
   padding: 15px;
 }
 
-.liked {
-  color: red;
-}
 /* END like button */
 
 /* Start Timer  */
