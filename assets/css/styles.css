@@ -141,13 +141,12 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   gap: 16px;
-  font-family: "Geist-Medium", sans-serif;
+  font-family: 'Sixtyfour', sans-serif;
   font-size: 20px;
   color: #e34521;
 }
 
 .modal-content p {
-  font-family: sans-serif;
   color: hsla(0, 0%, 87%, 0.724);
 }
 
@@ -167,7 +166,6 @@ body {
 }
 
 .modal-content #closeBtn p {
-  font-family: "Geist-Medium", sans-serif;
   font-size: 14px;
 }
 
@@ -209,7 +207,6 @@ header nav ul {
 }
 
 header nav ul li a {
-  font-family: "Geist-Medium", sans-serif;
   color: #f4f4f4;
   text-decoration: none;
 }
@@ -244,7 +241,6 @@ header nav ul li a:hover > .arrow-icon {
 }
 
 .nav-logo {
-  font-family: "Geist-Medium", sans-serif;
   font-size: 32px;
   color: #fc4b25;
 }
@@ -286,12 +282,11 @@ section.hero {
 }
 
 section.hero h1 {
-  font-family: "Geist-SemiBold", sans-serif;
+  font-family: 'Sixtyfour', sans-serif;
   transform: rotate(-3deg);
   /* color: #FC4B25; */
   color: white;
-  font-family: Geist;
-  font-size: 140px;
+  font-size: 100px;
   font-style: normal;
   font-weight: 600;
   line-height: 140px;
@@ -326,9 +321,7 @@ section.hero h1 span {
 }
 
 .tag p {
-  font-family: "Geist-Medium", sans-serif;
   color: #ffffff;
-  font-family: Geist;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
