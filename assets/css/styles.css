@@ -453,6 +453,40 @@ section.heart .content-wrapper h2 {
   backdrop-filter: blur(16px);
   color: white;
 }
+
 footer {
-  margin-left:5px;
+  background-color: #e34521;
+  padding: 32px 0;
+}
+
+footer p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.contributors {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid white;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.contributors:hover {
+  background-color: white;
+  color: #292929;
+}
+
+.contributors:active {
+  transform: scale(0.96);
 }
