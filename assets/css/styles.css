@@ -452,6 +452,7 @@ section.heart .content-wrapper h2 {
   padding: 16px;
   justify-content: center;
   align-items: center;
+  text-align: center;
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.01);
