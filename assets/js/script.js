@@ -76,18 +76,18 @@ function closeModal() {
 }
 
 // START Like button code
-const likeButton = document.getElementById('likeButton');
-const likeIcon = document.getElementById('likeIcon');
-let isLiked = localStorage.getItem('isLiked') === 'true';
+const likeButton = document.getElementById("likeButton");
+const likeIcon = document.getElementById("likeIcon");
+let isLiked = localStorage.getItem("isLiked") === "true";
 
 // Set initial state based on local storage
 if (isLiked) {
-  likeIcon.src = '/assets/img/filledHeart.png';
+  likeIcon.src = "/assets/img/filledHeart.png";
 }
 
-likeButton.addEventListener('click', () => {
+likeButton.addEventListener("click", () => {
   // Apply bounce class
-  likeIcon.classList.toggle('bounce');
+  likeIcon.classList.toggle("bounce");
 
   isLiked = !isLiked;
 
@@ -96,16 +96,16 @@ likeButton.addEventListener('click', () => {
 
   setTimeout(() => {
     if (isLiked) {
-      likeIcon.src = '/assets/img/filledHeart.png';
+      likeIcon.src = "/assets/img/filledHeart.png";
     } else {
-      likeIcon.src = '/assets/img/emptyHeart.png';
+      likeIcon.src = "/assets/img/emptyHeart.png";
     }
 
     // Toggle visibility back
     likeIcon.style.opacity = 1;
 
     // Store the clicked state in local storage
-    localStorage.setItem('isLiked', isLiked);
+    localStorage.setItem("isLiked", isLiked);
   }, 100);
 });
 // END Like button code
@@ -116,7 +116,7 @@ Day Section
 */
 //counting down till next day
 const day = document.querySelector(".timer");
-const end = new Date("01/30/2024 12:00 AM");
+const end = new Date("01/30/2024 11:59 PM");
 //Setting the dayCountdown
 let _second = 1000;
 let _minute = _second * 60;
