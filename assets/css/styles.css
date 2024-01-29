@@ -1,19 +1,5 @@
 /*  Fonts */
-font-face {
-  font-family: "Geist-Medium";
-  src: url("fonts/Geist-Medium.woff2") format("woff2"),
-    url("fonts/Geist-Medium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-font-face {
-  font-family: "Geist-SemiBold";
-  src: url("fonts/Geist-SemiBold.woff2") format("woff2"),
-    url("fonts/Geist-SemiBold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Sixtyfour&display=swap');
 
 /* Reset */
 * {
@@ -25,6 +11,7 @@ font-face {
 html,
 body {
   height: 100%;
+  font-family: 'Rubik', sans-serif;
 }
 
 /* Container */
@@ -154,13 +141,12 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   gap: 16px;
-  font-family: "Geist-Medium", sans-serif;
+  font-family: 'Sixtyfour', sans-serif;
   font-size: 20px;
   color: #e34521;
 }
 
 .modal-content p {
-  font-family: sans-serif;
   color: hsla(0, 0%, 87%, 0.724);
 }
 
@@ -180,7 +166,6 @@ body {
 }
 
 .modal-content #closeBtn p {
-  font-family: "Geist-Medium", sans-serif;
   font-size: 14px;
 }
 
@@ -222,7 +207,6 @@ header nav ul {
 }
 
 header nav ul li a {
-  font-family: "Geist-Medium", sans-serif;
   color: #f4f4f4;
   text-decoration: none;
 }
@@ -257,7 +241,6 @@ header nav ul li a:hover > .arrow-icon {
 }
 
 .nav-logo {
-  font-family: "Geist-Medium", sans-serif;
   font-size: 32px;
   color: #fc4b25;
 }
@@ -299,12 +282,11 @@ section.hero {
 }
 
 section.hero h1 {
-  font-family: "Geist-SemiBold", sans-serif;
+  font-family: 'Sixtyfour', sans-serif;
   transform: rotate(-3deg);
   /* color: #FC4B25; */
   color: white;
-  font-family: Geist;
-  font-size: 140px;
+  font-size: 100px;
   font-style: normal;
   font-weight: 600;
   line-height: 140px;
@@ -339,9 +321,7 @@ section.hero h1 span {
 }
 
 .tag p {
-  font-family: "Geist-Medium", sans-serif;
   color: #ffffff;
-  font-family: Geist;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -366,20 +346,88 @@ section.hero .content-wrapper {
   justify-content: center;
 }
 
+/* Like button section */
+section.heart {
+  position: relative;
+  background: url(../img/pixel-art-night-sky-background-with-clouds-and-stars-for-game-8-bit-vector.jpg) fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 72px 0;
+}
+
+section.heart .container {
+  position: relative;
+  z-index: 1;
+}
+
+section.heart::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 9%, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.heart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.heart .content-wrapper {
+    position: relative;
+}
+
+section.heart .content-wrapper h2 {
+  font-family: 'Sixtyfour', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transform: rotate(-3deg);
+  /* color: #FC4B25; */
+  color: white;
+  font-size: 42px;
+  line-height: 54px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  /* 100% */
+  letter-spacing: -2.8px;
+  margin-bottom: 32px;
+}
+
 /* START like button */
 #likeButton {
   background-color: transparent;
   border: transparent;
 }
 
-.heart-container {
-  font-size: 25vw;
+#likeIcon {
+  transition: opacity 0.2s ease;
+}
+
+.like-button {
+  max-width: 150px;
   display: flex;
   justify-content: center;
   padding: 15px;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
-/* END like button */
+.like-button img {
+  width: 100%;
+}
+
+.like-button:hover {
+  transform: scale(0.9);
+}
+/* END like button section */
 
 /* Start Timer  */
 .timer-container {
@@ -392,19 +440,53 @@ section.hero .content-wrapper {
 }
 
 .timer {
-  display: flex;
-  width: 50%;
+  display: inline-flex;
+  transform: rotate(3deg);
+  padding: 16px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-weight: bolder;
-  background-color: grey;
-  border: 2px solid red;
-  border-radius: 12px;
-  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0px 0px 37.9px 0px rgba(24, 24, 24, 0.78);
+  backdrop-filter: blur(16px);
   color: white;
-  font-family: "Geist-Medium", sans-serif;
 }
+
 footer {
-  margin-left:5px;
+  background-color: #e34521;
+  padding: 32px 0;
+}
+
+footer p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.contributors {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid white;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.contributors:hover {
+  background-color: white;
+  color: #292929;
+}
+
+.contributors:active {
+  transform: scale(0.96);
 }

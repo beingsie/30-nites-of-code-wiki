@@ -76,24 +76,38 @@ function closeModal() {
 }
 
 // START Like button code
-
 const likeButton = document.getElementById('likeButton');
 const likeIcon = document.getElementById('likeIcon');
+let isLiked = localStorage.getItem('isLiked') === 'true';
 
-let isLiked = false;
+// Set initial state based on local storage
+if (isLiked) {
+  likeIcon.src = '/assets/img/filledHeart.png';
+}
 
 likeButton.addEventListener('click', () => {
+  // Apply bounce class
+  likeIcon.classList.toggle('bounce');
+
   isLiked = !isLiked;
 
-  if (isLiked) {
-    likeIcon.src = '/assets/img/filledHeart.png';
-    
-  } else {
-    likeIcon.src = '/assets/img/emptyHeart.png';
-  }
+  // Toggle visibility and apply transition
+  likeIcon.style.opacity = 0;
+
+  setTimeout(() => {
+    if (isLiked) {
+      likeIcon.src = '/assets/img/filledHeart.png';
+    } else {
+      likeIcon.src = '/assets/img/emptyHeart.png';
+    }
+
+    // Toggle visibility back
+    likeIcon.style.opacity = 1;
+
+    // Store the clicked state in local storage
+    localStorage.setItem('isLiked', isLiked);
+  }, 100);
 });
-
-
 // END Like button code
 
 //Start Timer code

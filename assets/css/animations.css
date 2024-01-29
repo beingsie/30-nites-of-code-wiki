@@ -118,3 +118,26 @@
         transform: translateY(-100%);
     }
 }
+
+.bounce {
+    animation: bounceAnimation 0.75s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+@keyframes bounceAnimation {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1.2);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+}
