@@ -78,7 +78,12 @@ function closeModal() {
 // START Like button code
 const likeButton = document.getElementById('likeButton');
 const likeIcon = document.getElementById('likeIcon');
-let isLiked = false;
+let isLiked = localStorage.getItem('isLiked') === 'true';
+
+// Set initial state based on local storage
+if (isLiked) {
+  likeIcon.src = '/assets/img/filledHeart.png';
+}
 
 likeButton.addEventListener('click', () => {
   // Apply bounce class
@@ -98,6 +103,9 @@ likeButton.addEventListener('click', () => {
 
     // Toggle visibility back
     likeIcon.style.opacity = 1;
+
+    // Store the clicked state in local storage
+    localStorage.setItem('isLiked', isLiked);
   }, 100);
 });
 // END Like button code
