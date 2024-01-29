@@ -366,20 +366,34 @@ section.hero .content-wrapper {
   justify-content: center;
 }
 
+/* Like button section */
 /* START like button */
 #likeButton {
   background-color: transparent;
   border: transparent;
 }
 
-.heart-container {
-  font-size: 25vw;
+#likeIcon {
+  transition: opacity 0.2s ease;
+}
+
+.like-button {
+  max-width: 200px;
   display: flex;
   justify-content: center;
   padding: 15px;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
-/* END like button */
+.like-button img {
+  width: 100%;
+}
+
+.like-button:hover {
+  transform: scale(0.9);
+}
+/* END like button section */
 
 /* Start Timer  */
 .timer-container {
