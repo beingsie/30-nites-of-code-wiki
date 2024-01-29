@@ -17,6 +17,14 @@
 }
 
 @media screen and (max-width: 768px) {
+    section.hero h1 {
+        font-size: 48px;
+    }
+
+    section.heart .content-wrapper h2 {
+        font-size: 40px;
+    }
+
     .content-text {
         width: 100%;
         align-items: center;
