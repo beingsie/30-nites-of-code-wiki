@@ -391,10 +391,10 @@ section.heart .content-wrapper h2 {
   transform: rotate(-3deg);
   /* color: #FC4B25; */
   color: white;
-  font-size: 72px;
+  font-size: 42px;
+  line-height: 54px;
   font-style: normal;
   font-weight: 600;
-  text-transform: uppercase;
   text-align: center;
   /* 100% */
   letter-spacing: -2.8px;
