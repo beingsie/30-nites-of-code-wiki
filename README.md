@@ -19,10 +19,23 @@ Our goal is to create an accessible and informative open source wiki that showca
 3. **Fork and Branch**: Fork the repository and create a new branch for your contribution.
 
 ### Contribution Ideas
-- **Challenge Overview**: Write an overview of a challenge you participated in, including the goal, technologies used, and your personal reflection.
-- **Project Showcase**: Add a section showcasing your project with a brief description, technologies used, and a link to the repository or demo.
-- **Tutorials/Guides**: Share a tutorial or guide based on something unique you learned or built during the challenge.
-- **Resource Compilation**: Contribute a list of resources that were invaluable to your challenge experience.
+- **`Challenge Overview`**:
+    - Write an overview of a project you created for this challenge, including what the goal was, the technologies you used, and your personal thoughts and reflections on the experience.
+
+- **`Project Showcase`**:
+    - Add your projects to the showcase! Include a brief description of the project, list the technologies that were utilized, and share a link to the project's repository or a demo.
+
+- **`Tutorials/Guides`**:
+    - Share your knowledge by writing a tutorial or guide. This could be based on something unique you learned during the challenge or a cool feature you implemented in a project. 
+
+- **`Resource Compilation`**:
+    - Contribute a list of resources that were helpful during your challenge journey. This could include tutorial websites, documentation, code snippets, learning platforms, and more.
+
+- **`Challenge Experience`**:
+    - Share your overall experience of the challenge, tell us what you learned, the hurdles you overcame and how participating in the #30NitesOfCode challenge had an impact on your coding skills.
+
+- **`Feature Implementation`**:
+    - Add a feature to a challenge project and document your process. This can give others insight into your problem-solving process and can highlight the practical application of a specific technology or technique.
 
 ---
 
