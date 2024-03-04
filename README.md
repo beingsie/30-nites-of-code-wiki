@@ -1,10 +1,12 @@
 # #30NitesOfCode Wiki 🧾
 
-## Introduction
-Welcome to a collaborative open source project where developers of any experience level can contribute by adding new sections, pages, and resources to the #30NitesOfCode challenge wiki. This platform serves as a comprehensive guide for both participants and newcomers interested in the #30NitesOfCode challenge, offering detailed insights into each monthly challenge.
+## Introduction 🚦
+Welcome to a collaborative open source project where developers of any experience level can contribute by adding new sections, pages, and resources to the `#30NitesOfCode challenge wiki`.
+
+This project serves as a comprehensive guide for both participants and newcomers interested in the #30NitesOfCode challenge, offering detailed insights, recent news or anything related to the challenge.
 
 ## Objective ✨
-Our goal is to create an accessible and informative open source wiki that showcases projects, shares resources, and encourages learning through collaboration. Each contributor is invited to share their journey, learnings, and outcomes from participating in the #30NitesOfCode challenge.
+Our goal is to create an accessible and informative open source wiki that showcases projects, shares resources, and encourages learning through collaboration. Each contributor is invited to share their journey, learnings, and outcomes from participating in the challenge, making it easier for others to join in on the coding fun!
 
 ---
 
