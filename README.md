@@ -60,6 +60,14 @@ Our goal is to create an accessible and informative open source wiki that showca
 - **Join Our Community**: We encourage you to join our community [Link to Discord/Slack] for live discussions, support, and sharing insights.
 - **Seeking Help**: If you're stuck or need help, post your questions in the community channels or directly on the GitHub issue tracker.
 
+### Latest Contributors
+[✅ @Intelagense](https://github.com/intelagense)
+[✅ @Sametj](https://github.com/sametj)
+[✅ @Debasishrowlo](https://github.com/debasishrowlo)
+[✅ @Beingsie](https://github.com/beingsie)
+[✅ @Milan](https://github.com/MilanGrujicic)
+[✅ @CyberPenguin](https://github.com/JasperDeJonghe)
+
 ---
 
 ## `Code of Conduct`
