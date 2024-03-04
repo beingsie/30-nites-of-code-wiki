@@ -52,7 +52,7 @@ Our goal is to create an **accessible** and **informative open source wiki** tha
 
 2. **`Clone the Repository`:** After forking, clone the repository to your local machine. You can do this by running:
    ```
-   git clone https://github.com/beingsie/anything.git
+   git clone https://github.com/beingsie/30-nites-of-code-wiki.git
    ```
 3. **`Create a New Branch`:** Create a new branch for your feature or fix.
    ```
