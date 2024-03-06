@@ -16,13 +16,8 @@ Our goal is to create an **accessible** and **informative open source wiki** tha
 **`What is #30NitesOfCode?`**
 - Start by understanding the current month's challenge. Information can be found here [#30NitesOfCode](https://www.codedex.io/30-nites-of-code).
 
-### Making Contributions
-**`Please note all existing tasks are to be assigned on a first come first served rule basis. If you create a task from scratch it will be uniquely assigned to you!`**
-
-1. **`Pick a Task`**: Choose a task from the issues section that resonates with your skills or interests. Tasks range from adding new challenge overviews, project showcases, to creating tutorials.
-2. **`Claim Your Task`**: Leave a comment on the task you wish to work on to let others know it's being handled.
-3. **`Create a Task`**: Don't see a task with your specific idea? Create one & it will be assigned to you!
-4. **`Fork and Branch`**: Fork the repository and create a new branch for your contribution.
+### Making Contributions 🚧
+# `COMING SOON` 👷
 
 ## Contribution Ideas 💡
 - **`Challenge Overview`**:
